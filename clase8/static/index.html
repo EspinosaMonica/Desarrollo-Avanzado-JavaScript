@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="main.js" defer></script>
+    <title>Formularios</title>
+</head>
+<body>
+    <div class="form-container">
+        <h1>Registra tu cuenta</h1>
+        <form>
+            <label for="user-email">Correo electronico</label>
+            <input type="email" id="user-email">
+            <label for="user-password">Contraseña</label>
+            <div class="password-container">
+                <input type="password" id="user-password">
+                <button class="toggle-password">Ver</button>
+            </div>
+            <label for="user-password-confirmation">Confirma tu contraseña</label>
+            <div class="password-container">
+                <input type="password" id="user-password-confirmation">
+                <button class="toggle-password">Ver</button>
+            </div>
+            <button id="register-button">Registrarse</button>
+        </form>
+    </div>
+</body>
+</html>
