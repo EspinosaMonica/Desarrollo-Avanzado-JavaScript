@@ -1,0 +1,42 @@
+body {
+    font-family: sans-serif;
+    text-align: center;
+    background-color: #e6f0ff; /* azul muy suave */
+    color: #003366; /* azul oscuro */
+    padding: 20px;
+}
+
+#numero, #letra {
+    padding: 8px;
+    margin-right: 10px;
+    border: 1.5px solid #3399ff;
+    border-radius: 5px;
+    font-size: 18px;
+    color: #003366;
+    background-color: #cce0ff;
+    text-align: center;
+    width: 60px;
+}
+
+button {
+    padding: 8px 16px;
+    background-color: #3399ff; /* azul vibrante */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #2673cc; /* azul más oscuro al hover */
+}
+
+#mensaje, #mensaje1 {
+    margin-top: 15px;
+    font-weight: bold;
+    color: #00509e; /* azul intenso */
+    min-height: 24px;
+}
+
